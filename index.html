@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<html lang="id">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Belajar Coding</title>
+
+</head>
+
+<body>
+<style>.satu{border-radius:50%; position: absolute; left: 1200px; bottom:200px;}</style>
+  <h1><p><center><font size="8">Belajar HTML</font></center><p></h1><br><br><br>
+  <p><font size="4">Selamat datang di laman belajar HTML. Kita akan secara bertahap mempelajarinya satu per satu mulai dari tahapan yang sederhana. HTML sendiri merupakan singkatan dari Hypertext Markah Langguage merupakan salah satu bahasa pengkodean atau pemograman yang digunakan untuk membuat halaman website. HTML dapat diibaratkan sebagai struktur dasar dari sebuah website. Jadi, ketika kalian ingin membuat sebuah website, 
+salah satu hal penting dan mendasar adalah dimulai dari mempelajari HTML.</font>
+</p><font size="4">Sebelum mempelajari lebih jauh mengenai bahasa pemrograman HTML, ada baiknya kita mengenali dulu istilah-stilah yang akan sering digunakan pada saat kita akan memnuat sebuah ffile HTMLantara lain:
+<ol>
+<li>Tag adalah sebuah penanda awalan dan akhiran dari sebuah elemen di HTML. Tag dibuat dengan kurung sudut (<...>), lalu di dalamnya berisi nama tag dan kadang juga ditambahkan dengan atribut.
+Tag biasanya ditulis berpasangan walaupun ada jenis tag yang tidak berpasangan, ada tag pembuka dan ada tag penutupnya. Tag penutup biasanya diawali < /  >.</li><p>
+<li>Elemen dalam HTML adalah sebuah komponen yang menyusun dokumen HTML. Elemen kadang juga disebut sebagai node, karena ia merupakan salah satu jenis node yang menyusun dokumen HTML. Elemen terdiri atas tag pembuka, isi tag, dan tag penutup. Kadang juga ditambahkan beberapa atribut</li><p>
+<li>Atribut adalah kata kunci khusus yang berada di dalam tag pembuka. Atribut juga disebut sebagai modifier yang akan menentukan perilaku dari elemen.</li>
+</font></ol>
+<div style="text-align: center;">
+      <img src="ilustrasi.jpg" alt="Deskripsi gambar">
+    </div>
+
+<font size="4">
+<p><font size="5"><b>Tahap Awal Membuat HTML</b></font></p>
+Langkah pertama yang harus kita lakukan adalah membuat file HTML. Kita dapat menggunakan aplikasi Notepad atau bagi para pemula bisa menggunakan bantuan aplikasi Visual Studio Code (lebih familiar dengan istilah VS Code) yang akan sangat membantu sekali dalam memunculkan elemen-elemen yang sesuai dengan prosedur baku dari HTML. Caranya adalah kita membuka laman baru baik di notepad ataupun
+VS Code, kemudian kita simpan dengan extension dari HTML (.html).</font>
+<a href="https://code.visualstudio.com/download" target="blank">Download Visual Studio Code</a></p>
+<p><font size="5"><b>Struktur dasar file HTML</b></font></p>
+<ol>
+<font size="4"><li>< !DOCTYPE html > merupakan elemen tunggal berfungsi agar file yang kita buat dapat dikenali browser sebagai HTML5.</font></li><p>
+<font size="4"><li>< html lang="en" > atau < html lang="id"> merupakan elemen berpasangan yang berfungsi untuk menandai bahasa konten utama dari halaman web, < html lang="en" > jika kita ingin menggunakan Bahasa Inggris sebagai bahasa konten utamanya, dan < html lang="id"> jika kita ingin menggunakan Bahasa Indonesia.</li><p>
+<font size="4"><li>< head > merupakan salah satu elemen terpenting dari elemen atau tag HTML untuk mengidentifikasi header web yang berisi informasi tentang web. Tag ini merupakan tag berpasangan, diawali dengan < head >, diakiri tag < /head >.Diantara pasangan tag tersebut dianjurkan untuk membuat sub elemen yakni:<p>
+<ul type="square"><li>< meta charset="UTF-8" > merupakan intruksi untuk browser agar menginterpretasikan karakter di halaman web
+menggunakan UTF-8, yang merupakan standar universal untuk menampilkan teks dari hampir semua bahasa  dengn benar.</li><p>
+<li>< meta name="viewport" content="width-device-width, initial-scale=1.0" > adalah intruksi HTML yang memberitahu browser bagaimana mengatur tampilan halaman web diperangkat yang berbeda sehingga akan membuat situs yang dibuka jadi lebih responsif. ( width="device-width"  ) berfungsi untuk mengatur agar lebar tampilan halaman dapat menyesuaikan  dengan lebar layar perangkat yang digunakan baik itu ponsel, tablet, laptop, atau dekstop. Adapun ( initial-scale="1.0" ) berfungsi untuk mengatur tingkat zoom awal halaman saat pertama kali dmuat,sehingga halaman akan ditampilkan 100% dalam ukuran aslinya.</font></li><p>
+</ul>
+<li>< title > merupakan elemen berpasangan dengan < /title > yang berfungsi memberikan nama laman web yang nantinya akan kita buka</li><p>
+<li> < body > merupakan elemen berpasangan dengan < /body > sebagai tempat kita membuat konten dari laman yang akan kita tampilkan</li><p>
+<li> < /html > merupakan elemen penutup yang mengakhiri seluruh struktur HTML. Semua elemen lain harus berada di dalam tag ini. Tag ini memberi tahu browser bahwa seluruh konten yang ada di dalamnya adalah bagian dari halaman HTML. Bersama dengan tag pembuka < html lang=" " >, tag penutup ini menciptakan struktur dasar untuk semua halaman web, mengapit bagian < head > dan < body >.</li>
+</ol>
+ <div style="text-align: center;">
+      <img src="notpad.jpg" alt="Deskripsi gambar"><p>
+    </div>
+<p><font size="5"><b>Mengenal beberapa jenis Tag HTML yang sering digunakan</b></font></br>
+<p> Selain tag yang menjadi struktur dasar dari file HTML yang sudah dibahas di atas, masih terdapat banyak tag HTML lainnya dengan berbagai fungsinya. Berikut jenis-jenis Tag beserta fungsinya yang paling sering digunakan:</p>
+<ol>
+<li>Tag HTML Format</li>
+<ul>
+<li> < em > : untuk menekankan teks tertentu dalam suatu paragraf, biasanya ditampilkan miring</li>
+<li> < b > : untuk menebalkan teks</li>
+<li> < i > : untuk membuat teks miring tanpa makna tambahan atau penekanan</li>
+<li> < u > : untuk mengatur garis bawah teks</li>
+<li> < sub > : untuk membuat teks lebih rendah dari baris teks normal</li>
+<li> < sup > : untuk membuat teks lebih tinggi dari baris teks normal</li></ul><p>
+<li>Tag HTML Link</li>
+<ul>
+<li>< href > : untuk menunjukkan link tujuan ketika diklik</li>
+<li>< target > : untuk menentukan dimana halaman web yang ditautkan akan dibuka</li>
+<li>< rel> : untuk menentukan hubungan antara halaman yang ditautkan dan halaman saat ini</li></ul><p>
+<li>Tag HTML List</li>
+<ul>
+<li>< ol > : untuk membuat daftar yang berurutan dengan nomor</li>
+<li>< ul > : untuk membuat daftar tidak berurutan, yakni dengan bullet points atau simbol</li>
+<li>< dl > : untuk membuat daftar definisi yang terdiri dari istilah dan definisinya</li></ul><p>
+<li>Tag HTML Media</li>
+<ul>
+<li>< img > : untuk menyisipkan gambar ke dalam halaman web, bisa dengan tambahan atribut src dan alt</li>
+<li>< audio > : untuk menyisipkan file audio yang dapat diputar di halaman web</li>
+<li>< video > : untuk menyisipkan file video yang dapat diputar di halaman web</li></ul><p>
+<li>Tag HTML Table</li>
+<ul>
+<li>< table > : untuk mendefinisikan keseluruhan tabel</li>
+<li>< tr > : untuk membuat baris dalam tabel</li>
+<li>< td > : untuk mendefinisikan sel data dalam baris tabel 
+<li>< col > : untuk membuat gaya pada satu kolom dalam tabel</li>
+<li>< thead > : untuk membantu dalam mengatur informasi header tabel</li></ul><p>
+<li>Tag HTML Form & Input</li>
+<ul>
+<li><  form > : untuk mendefinisikan keseluruhan formulir di halaman web</li>
+<li>< input > : untuk menyediakan berbagai jenis elemen input seperti teks, tombol, dan checkbox dengan tambahan atribut type</li>
+<li>< label > : untuk memberikan label atau deskripsi, sehingga meningkatkan aksesibilitas dan membantu pengguna memahami tujuan elemen input</li>
+<li>< select > : untuk menyediakan menu dropdown</li>
+<li>< button > : untuk membuat tombol yang bisa diklik pengguna, contohnya untuk mengirim form</li></ul>
+</ol>
+<p> Daftar tag HTML lebih lengkapnya dapat anda baca <a href="Sumber.pdf" target="_blank"><font size="4">disini</li></font></a></p>
+<p><font size="5"><b>Mengenal beberapa jenis atribut HTML yang sering digunakan</b></font></br>
+<p> Berikut jenis-jenis Atribut beserta fungsinya yang paling sering digunakan:</p>
+<ol>
+<li> class  : Memberikan nama kelas untuk menata gaya elemen menggunakan CSS. Contoh: < p class="artikel" >
+<li> style  : Menambahkan gaya CSS langsung ke elemen. Contoh: < p style="color: blue;" ></li>
+<li> href : Menentukan URL (alamat) untuk tag tautan <a>. Contoh: < a href="https://www.google.com" ></li>
+<li> src : Menentukan URL untuk gambar <img> atau skrip lain. Contoh: < img src="gambar.jpg" ></li>
+<li> alt : Memberikan teks alternatif untuk gambar jika gambar tidak dapat dimuat. Contoh: <img src="gambar.jpg" alt="Deskripsi Gambar"></li>
+</ol>
+<img src="me.jpg" class="satu" height="50"; width="50";/>
+<p> Daftar atribut HTML lebih lengkapnya dapat anda baca <a href="Tabel Atribut HTML.pdf" target="_blank"><font size="4">disini</li></font></a></p>
+<p> Mungkin untuk sementara saya cukupkan sampai disini dulu berbagi seputar HTML. Kalau ada waktu kita sambung lagi berbagi ilmu mengenai CSS key....</p> 
+</body>
+
+</html>
+
